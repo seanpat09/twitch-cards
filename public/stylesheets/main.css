@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.card-deck {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+}
+
+.card {
+  background-image: url("/images/card-front.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+
+  transition: 0.5s;
+  transform: perspective(1000px);
+  filter: brightness(1);
+}
